@@ -23,8 +23,9 @@ class MainActivity : AppCompatActivity(), PayResultListener {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.handler = Handler()
 
-    }
 
+
+    }
 
 
 

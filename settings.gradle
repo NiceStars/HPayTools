@@ -8,6 +8,7 @@ pluginManagement {
             allowInsecureProtocol = true
             url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
         }
+        maven { url 'https://jitpack.io' }
         gradlePluginPortal()
         google()
         mavenCentral()
@@ -17,9 +18,11 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+
         maven {url 'https://maven.aliyun.com/repository/google/'}
         maven {url 'https://maven.aliyun.com/repository/public/'}
         maven {url 'https://maven.aliyun.com/repository/gradle-plugin/'}
+        maven { url 'https://jitpack.io' }
         maven {
             allowInsecureProtocol = true
             url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
